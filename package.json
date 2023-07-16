@@ -9,9 +9,11 @@
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/main.ts"
   },
   "dependencies": {
+    "amqplib": "^0.10.3",
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
+    "@types/amqplib": "^0.10.1",
     "@typescript-eslint/eslint-plugin": "^5.59.1",
     "@typescript-eslint/parser": "^5.59.1",
     "eslint": "^8.39.0",
