@@ -8,7 +8,8 @@
     "start": "node dist/main.js",
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/main.ts",
     "exchange:direct": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/direct.ts",
-    "exchange:topic": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/topic.ts"
+    "exchange:topic": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/topic.ts",
+    "exchange:fanout": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/fanout.ts"
   },
   "dependencies": {
     "amqplib": "^0.10.3",
