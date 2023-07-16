@@ -7,7 +7,8 @@
     "build": "tsc",
     "start": "node dist/main.js",
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/main.ts",
-    "exchange:direct": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/direct.ts"
+    "exchange:direct": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/direct.ts",
+    "exchange:topic": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/topic.ts"
   },
   "dependencies": {
     "amqplib": "^0.10.3",

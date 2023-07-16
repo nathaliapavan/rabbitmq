@@ -13,3 +13,6 @@ yarn install
 
 ### run script with the example of a direct exchange
 yarn run exchange:direct
+
+### run script with the example of a topic exchange
+yarn run exchange:topic
