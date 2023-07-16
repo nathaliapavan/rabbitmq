@@ -13,8 +13,7 @@
     "exchange:headers": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/headers.ts"
   },
   "dependencies": {
-    "amqplib": "^0.10.3",
-    "dotenv": "^16.0.3"
+    "amqplib": "^0.10.3"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.1",
