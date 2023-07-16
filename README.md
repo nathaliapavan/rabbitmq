@@ -39,3 +39,9 @@ yarn run exchange:topic
 ```bash
 yarn run exchange:fanout
 ```
+
+#### run script with the example of a headers exchange
+
+```bash
+yarn run exchange:headers
+```
