@@ -10,7 +10,9 @@
     "handler:direct": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/direct.ts",
     "handler:topic": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/topic.ts",
     "handler:fanout": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/fanout.ts",
-    "handler:headers": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/headers.ts"
+    "handler:headers": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/headers.ts",
+    "hex_arch:generic": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/hexagonal_arch/app/main.ts",
+    "hex_arch:topic": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/hexagonal_arch/app/topic.ts"
   },
   "dependencies": {
     "amqplib": "^0.10.3"
