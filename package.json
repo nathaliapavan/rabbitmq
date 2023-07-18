@@ -7,10 +7,10 @@
     "build": "tsc",
     "start": "node dist/main.js",
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/main.ts",
-    "exchange:direct": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/direct.ts",
-    "exchange:topic": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/topic.ts",
-    "exchange:fanout": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/fanout.ts",
-    "exchange:headers": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/exchanges/headers.ts"
+    "handler:direct": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/direct.ts",
+    "handler:topic": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/topic.ts",
+    "handler:fanout": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/fanout.ts",
+    "handler:headers": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/handlers/headers.ts"
   },
   "dependencies": {
     "amqplib": "^0.10.3"

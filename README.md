@@ -25,23 +25,23 @@ yarn install
 #### run script with the example of a direct exchange
 
 ```bash
-yarn run exchange:direct
+yarn run handler:direct
 ```
 
 #### run script with the example of a topic exchange
 
 ```bash
-yarn run exchange:topic
+yarn run handler:topic
 ```
 
 #### run script with the example of a fanout exchange
 
 ```bash
-yarn run exchange:fanout
+yarn run handler:fanout
 ```
 
 #### run script with the example of a headers exchange
 
 ```bash
-yarn run exchange:headers
+yarn run handler:headers
 ```
